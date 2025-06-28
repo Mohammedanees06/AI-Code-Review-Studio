@@ -1,5 +1,5 @@
 # SmartCode-Ai-Editor-Mern
-A MERN stack code editor powered by Google Gemini AI for real-time code generation and smart assistance. Secure API key management and modern full-stack architecture to boost developer productivity.
+A MERN stack code editor integrated with Google Gemini AI for real-time code generation and smart assistance. Features secure API key management, modern full-stack architecture, and a responsive UI to enhance developer productivity and streamline the coding experience.
 
 
 
