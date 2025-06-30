@@ -36,15 +36,15 @@ A modern MERN stack application that uses **Google Gemini AI (2.5 Flash)** for i
 git clone https://github.com/Mohammedanees06/AI-Code-Review-Studio.git
 cd AI-Code-Review-Studio
 
-# Backend
-cd backend
-npm install
-node index.js
+# Backend<br>
+cd backend<br>
+npm install<br>
+node index.js<br>
 
-# Frontend
-cd ../frontend
-npm install
-npm run dev
+# Frontend <br>
+cd ../frontend<br>
+npm install<br>
+npm run dev<br>
 
 ---
 ## 
@@ -57,7 +57,7 @@ Have a suggestion or want to contribute? Feel free to fork the repo, raise issue
 
 
 
-> Made with 💻 by Mohammed Anees  
-> [🔗 LinkedIn](https://linkedin.com/in/mohammedaneesdev)
+ Made with 💻 by Mohammed Anees  
+
 🔗 [LinkedIn](https://linkedin.com/in/mohammedaneesdev)  
 💻 [GitHub](https://github.com/Mohammedanees06)
