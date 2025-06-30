@@ -46,8 +46,18 @@ cd ../frontend
 npm install
 npm run dev
 
-## 📬 Contact
+---
 
-**Mohammed Anees**  
+
+
+
+## 📬 Feedback & Contributions
+
+Have a suggestion or want to contribute? Feel free to fork the repo, raise issues, or open pull requests. ✨
+
+
+
+> Made with 💻 by Mohammed Anees  
+> [🔗 LinkedIn](https://linkedin.com/in/mohammedaneesdev)
 🔗 [LinkedIn](https://linkedin.com/in/mohammedaneesdev)  
 💻 [GitHub](https://github.com/Mohammedanees06)
