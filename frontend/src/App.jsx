@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 const customStyles = `
   .scrollbar-hide {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
   }
   .scrollbar-hide::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome */
+    display: none;  
   }
 `;
 
@@ -24,18 +24,18 @@ function App() {
         body: JSON.stringify({ code }),
       });
       const data = await response.json();
-      // Remove markdown formatting like *, #, **, etc.
+      
       const cleanResponse = (data.response || 'No response')
-        .replace(/\*\*(.*?)\*\*/g, '$1')  // Remove **bold**
-        .replace(/\*(.*?)\*/g, '$1')      // Remove *italic*
-        .replace(/^#+\s/gm, '')           // Remove # headers
-        .replace(/`([^`]+)`/g, '$1')      // Remove `code`
-        .replace(/^\s*[-*+]\s/gm, '• ')   // Convert list markers to bullets
+        .replace(/\*\*(.*?)\*\*/g, '$1')  
+        .replace(/\*(.*?)\*/g, '$1')      
+        .replace(/^#+\s/gm, '')          
+        .replace(/`([^`]+)`/g, '$1')      
+        .replace(/^\s*[-*+]\s/gm, '• ')   /
         .trim();
       setReview(cleanResponse);
     } catch (error) {
       console.error(error);
-      setReview('❌ Error connecting to AI server.');
+      setReview(' Error connecting to AI server.');
     }
     setLoading(false);
   };
@@ -82,13 +82,11 @@ function App() {
                       }
                     }
                   }}
-                  placeholder="// Paste your code here...
-// The AI will analyze it for best practices, performance, and security
-// Press Ctrl+Enter (or Cmd+Enter) to submit quickly
+                  placeholder=""
 
-function example() {
-  console.log('Hello, World!');
-}"
+              function example() {
+                console.log('Hello, World!');
+                        }"
                   className="w-full h-full p-3 sm:p-4 bg-slate-800/50 border border-slate-600/50 rounded-xl text-xs sm:text-sm font-mono text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all duration-200 resize-none backdrop-blur-sm"
                 />
                 <div className="absolute top-2 right-2 text-xs text-slate-500 bg-slate-800/80 px-2 py-1 rounded">
